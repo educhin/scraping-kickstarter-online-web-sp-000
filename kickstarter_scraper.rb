@@ -2,6 +2,7 @@
 require 'nokogiri'
 require 'pry'
 
+#project: kickstarter.css(".project-card")
 #title: project.css("h2.bbcard_name strong a").text
 #pic: project.css("div.project-thumbnail a img").attribute("src").value
 #description project.css("p.bbcard_blurb").text
